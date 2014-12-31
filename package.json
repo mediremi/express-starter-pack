@@ -1,0 +1,26 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "the description",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "put git repo url here"
+  },
+  "author": "Médi-Rémi Hashim",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "browserify-middleware": "^4.1.0",
+    "csurf": "^1.6.3",
+    "express": "^4.10.6",
+    "express-session": "^1.9.3",
+    "nunjucks": "^1.1.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
