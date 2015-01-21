@@ -1,3 +1,3 @@
 module.exports = {
-	port: 8000
+	port: require("is-root")() ? 80 : 8000
 }

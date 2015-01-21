@@ -4,7 +4,7 @@
   "description": "the description",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "NODE_ENV=test tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,12 @@
     "csurf": "^1.6.3",
     "express": "^4.10.6",
     "express-session": "^1.9.3",
-    "nunjucks": "^1.1.0"
+    "is-root": "^1.0.0",
+    "nunjucks": "^1.1.0",
+    "tcp-bind": "^1.1.1"
   },
   "devDependencies": {
+    "supertest": "^0.15.0",
     "tape": "^3.0.3"
   }
 }
