@@ -11,7 +11,7 @@
     "url": "put git repo url here"
   },
   "author": "Médi-Rémi Hashim",
-  "license": "GPL-3.0+",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.10.0",
     "browserify-middleware": "^4.1.0",
