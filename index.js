@@ -1,6 +1,6 @@
 var alloc = require("tcp-bind")
 var config = require("./config")
-var app = require("app")
+var app = require("./app")
 
 var fd = alloc(config.port)
 
