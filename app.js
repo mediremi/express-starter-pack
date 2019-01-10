@@ -1,13 +1,10 @@
 var express = require("express")
 var session = require("express-session")
 var csrf = require("csurf")
-var browserify = require("browserify-middleware")
 
 var app = express()
 
 app.disable("x-powered-by")
-
-app.use("/js/main.js", browserify("./client/js/index.js"))
 
 app.use(express.static(__dirname + "/public"))
 

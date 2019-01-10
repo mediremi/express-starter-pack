@@ -13,17 +13,14 @@
   "author": "Médi-Rémi Hashim",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.10.0",
-    "browserify-middleware": "^7.0.0",
-    "csurf": "^1.6.3",
-    "express": "^4.13.2",
-    "express-session": "^1.9.3",
-    "is-root": "^1.0.0",
-    "nunjucks": "^1.1.0",
-    "tcp-bind": "^1.1.1"
+    "body-parser": "^1.18.3",
+    "csurf": "^1.9.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "nunjucks": "^3.1.6"
   },
   "devDependencies": {
-    "supertest": "^1.0.1",
+    "supertest": "^3.3.0",
     "tape": "^4.0.1"
   }
 }
