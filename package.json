@@ -4,6 +4,7 @@
   "description": "the description",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "NODE_ENV=test tape test/*.js"
   },
   "repository": {
